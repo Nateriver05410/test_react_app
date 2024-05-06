@@ -1,0 +1,5 @@
+FROM node:14.14.0-alpine
+WORKDIR /test/server
+COPY ./package.json ./
+RUN npm i
+CMD ["npm", "run", "dev"]
