@@ -1,4 +1,4 @@
-version: '3'
+version: '3.8'
 
 services:
   web:
@@ -14,7 +14,7 @@ services:
       - MYSQL_PORT=3306
       - MYSQL_USER=nate
       - MYSQL_PASSWORD=@Fourdy21
-      - MYSQL_DATABASE=cars
+      - MYSQL_DATABASE=
 
   db:
     image: mysql:latest
